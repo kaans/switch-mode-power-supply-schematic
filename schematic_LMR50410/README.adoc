@@ -1,0 +1,81 @@
+= Switch mode power supply with TI LMR50410
+
+This switch mode power supply is a very small design
+to convert (lead) battery voltages between 9 to 30 Volts
+down to stable 3.3 Volts. It supports a current of up to
+1A.
+
+Find the schematic online at
+https://aisler.net/p/PBSTXYMH[https://aisler.net/p/PBSTXYMH]. You can also import it to your
+aisler sandbox and order it yourself.
+
+The board has a BOM of only 11 parts (apart from the
+pin headers). It also has a red LED that shows whether the 3.3 Volt output is turned on. It can be soldered
+onto the board or left of, as desired.
+
+The enable output is accessible through a jumper and can be connected to an external enable input, if required. For an always on setup, just connect the
+pin header JP1 with a jumper. This pulls the enable pin to Vin and keeps the circuit switched on.
+
+The board can be soldered by hand. The smallest parts are 0603 and the SOT-23-6 IC.
+
+An example order for soldering the parts is as follows:
+
+`U1, C3, R2, R1, L1, C4, C5, D1, R3, C2, C1, JP1`
+
+Solder the pin headers J1 through J4 according to your needs.
+
+You can also solder screw terminals onto J1 and J2, as well as J3 and J4. Due to the small size the screw terminals don't fit on the top side but on the bottom.
+
+Size: 2,8cm x 1,3cm
+
+== Parts
+
+=== TI LMR50410
+
+:imagesdir: ./doc
+
+Datasheet:
+https://www.ti.com/lit/ds/symlink/lmr50410.pdf?ts=1612087396442
+
+* Manufacturer: TI
+* New IC
+* Up to 1A
+* Input 4V to 36V
+* EMI improved
+* SOT-23-6 Package
+
+=== LED
+
+Datasheet:
+https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190EKT.pdf
+
+* Manufacturer: LITEON
+* Model: LTST-C190EKT
+* Color: red
+
+=== Inductor SRN6045-150M
+
+Datahseet:
+https://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf
+
+* Manufacturer: Bourns
+* Model: SRN6045-150M
+* L 15uH
+* Irms 1.9A
+
+== Pictures
+
+.PCB Foto
+image::pcb_photo.jpg[PCB photo]
+
+.Schematic
+image::schematic.PNG[Schematic]
+
+.PCB front
+image::pcb_front.PNG[PCB Front]
+
+.PCB back
+image::pcb_back.PNG[PCB Back]
+
+.PCB 3D view
+image::pcb_3d.PNG[PCB 3D view]

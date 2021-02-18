@@ -1,0 +1,9 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cin,TDK,C3216X5R1H106K160AB,1,0.26,10.92,Cap: 10 µF  Total Derated Cap: 1.6 µF  VDC: 50 V  ESR: 1 mΩ  Package: 1206_180  
+L1,Bourns,SRN6045-150M,1,0.2,64,L: 15 µH  DCR: 95.8 mΩ  IDC: 1.9 A  
+Cboot,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Cinx,MuRata,GRM188R72A104KA35D,1,0.05,4.68,Cap: 100 nF  Total Derated Cap: 64 nF  VDC: 100 V  ESR: 1 mΩ  Package: 0603  
+U1,Texas Instruments,LMR50410XDBVR,1,0.4,14.82,
+Cout,MuRata,GRM21BD70J226ME44L,2,0.1,6.75,Cap: 22 µF  Total Derated Cap: 30 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0805  
+Rfbb,Vishay-Dale,CRCW060322K1FKEA,1,0.01,4.68,Resistance: 22.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rfbt,Yageo,RC0603FR-0751KL,1,0.01,4.68,Resistance: 51 kΩ  Tolerance: 1.0%  Power: 100 mW  

@@ -1,0 +1,1 @@
+kifield -i smps_lmr50410.sch -x smps_lmr50410.fields.xlsx -w
